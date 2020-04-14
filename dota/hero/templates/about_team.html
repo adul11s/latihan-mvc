@@ -1,0 +1,738 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    {%load static%}
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
+    <link rel="stylesheet" href="{% static 'css/style.css'%}">
+    <title>Alterra Academy | About Team</title>
+</head>
+<body class="team_body">
+    <header class="bg-white">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-6 col-md-4 col-sm-12 col-xs-12 menu_mobile">
+                    <a href="{% url 'index'%}">
+                        <img id="logo" src="{% static 'images/logo-ALTA@2x.png'%}" width="200px" />
+                    </a>
+                </div>
+                <div class="col-lg-6 col-md-8 col-sm-12 col-xs-12 d-flex align-items-center">
+                    <nav>
+                        <ul class="mb-0">
+                            <a href="{% url 'index'%}">
+                                <li>
+                                    Home
+                                </li>
+                            </a>
+                            <a href="{% url 'index'%}">
+                                <li>
+                                    About
+                                </li>
+                            </a>
+                            <a href="about_team.html" class="active">
+                                <li>
+                                    Team
+                                </li>
+                            </a>                        
+                            <a href="blog.html">
+                                <li>
+                                    Blog
+                                </li>
+                            </a>
+                            <a href="contact.html">
+                                <div class="contact">
+                                    Contact
+                                </div>
+                            </a>
+                        </ul>
+                    </nav>
+                </div>
+
+            </div>
+        </div>
+    </header>
+    <section class="header_section first-section">
+        <div class="col-12 text-center">
+            <h1 class="head-section">About Our Team</h1>
+        </div>
+    </section>
+    <section class="lastbox">
+        <div class="container">
+            <div class="row">
+                <div class="col-12 team-job-title">
+                    <strong>
+                        Back End Developer
+                    </strong>
+                </div>
+                <div class="col-12">
+                    <div class="row d-flex align-items-center mb-5">
+                        <div class="col-lg-5 col-md-5 col-sm-12 col-xs-12 box-profil">
+                            <div class="box-img-team d-flex justify-content-center">
+                                <div class="col-9 p-0 parent-prof">
+                                    <img class="img-team-prof" src="images/shutterstock_796346011@2x.png">
+                                    <div class="off-border">
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-lg-7 col-md-7 col-sm-12 col-xs-12">
+                            <div class="row">
+                                <div class="col-4 p-bio">
+                                    First Name
+                                </div>
+                                <div class="col-1 p-0 p-bio">
+                                    :
+                                </div>
+                                <div class="col-7 pl-0 p-bio">
+                                    Muhammad
+                                </div>
+                            </div>
+                            <div class="row">
+                                <div class="col-4 p-bio">
+                                    Last Name
+                                </div>
+                                <div class="col-1 p-0 p-bio">
+                                    :
+                                </div>
+                                <div class="col-7 pl-0 p-bio">
+                                    Sholeh
+                                </div>
+                            </div>
+                            <div class="row">
+                                <div class="col-4 p-bio">
+                                    Birthdate
+                                </div>
+                                <div class="col-1 p-0 p-bio">
+                                    :
+                                </div>
+                                <div class="col-7 pl-0 p-bio">
+                                    01 November 1995
+                                </div>
+                            </div>
+                            <div class="row">
+                                <div class="col-4 p-bio">
+                                    Nationality
+                                </div>
+                                <div class="col-1 p-0 p-bio">
+                                    :
+                                </div>
+                                <div class="col-7 pl-0 p-bio">
+                                    Indonesia
+                                </div>
+                            </div>
+                            <div class="row">
+                                <div class="col-4 p-bio">
+                                    Address
+                                </div>
+                                <div class="col-1 p-0 p-bio">
+                                    :
+                                </div>
+                                <div class="col-7 pl-0 p-bio">
+                                    Kota Malang Jawa Timur
+                                </div>
+                            </div>
+                            <div class="row">
+                                <div class="col-4 p-bio">
+                                    Email
+                                </div>
+                                <div class="col-1 p-0 p-bio">
+                                    :
+                                </div>
+                                <div class="col-7 pl-0 p-bio">
+                                    sholeh@alterra.id
+                                </div>
+                            </div>
+                            <div class="row">
+                                <div class="col-4 p-bio">
+                                    Phone
+                                </div>
+                                <div class="col-1 p-0 p-bio">
+                                    :
+                                </div>
+                                <div class="col-7 pl-0 p-bio">
+                                    0812 8987 9972
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-6 mb-5">
+                    <div class="row">
+                        <div class="col-12">
+                            <h4 class="title-team mt-4 mb-4">
+                                Education
+                            </h4>
+                        </div>
+                        <div class="col-12 edu-list">
+                            <div class="row mb-3">
+                                <div class="col-2 text-right">
+                                    <b>
+                                        •
+                                    </b>
+                                </div>
+                                <div class="col-10 tahun">
+                                    <img src="images/calendar.png" class="img-calendar">
+                                    <span>
+                                        2010 - 2013
+                                    </span>
+                                </div>
+                                <div class="col-2 text-right">
+                                    <b>
+                                        
+                                    </b>
+                                </div>
+                                <div class="col-10 tahun">
+                                    <strong>
+                                        SMAN 01 Whereever
+                                    </strong>
+                                </div>
+                                <div class="col-2 text-right">
+                                    <b>
+                                        
+                                    </b>
+                                </div>
+                                <div class="col-10 tahun">
+                                    <span>
+                                        Ilmu Pengetahuan Alam
+                                    </span>
+                                </div>
+                            </div>
+                            <div class="row mb-3">
+                                <div class="col-2 text-right">
+                                    <b>
+                                        •
+                                    </b>
+                                </div>
+                                <div class="col-10 tahun">
+                                    <img src="images/calendar.png" class="img-calendar">
+                                    <span>
+                                        2013 - 2019
+                                    </span>
+                                </div>
+                                <div class="col-2 text-right">
+                                    <b>
+                                        
+                                    </b>
+                                </div>
+                                <div class="col-10 tahun">
+                                    <strong>
+                                        Universitas Halu Oleo
+                                    </strong>
+                                </div>
+                                <div class="col-2 text-right">
+                                    <b>
+                                        
+                                    </b>
+                                </div>
+                                <div class="col-10 tahun">
+                                    <span>
+                                        Teknik Informatika
+                                    </span>
+                                </div>
+                            </div>                                                     
+                            <div class="row mb-3">
+                                <div class="col-2 text-right">
+                                    <b>
+                                        •
+                                    </b>
+                                </div>
+                                <div class="col-10 tahun">
+                                    <img src="images/calendar.png" class="img-calendar">
+                                    <span>
+                                        2019 - Now
+                                    </span>
+                                </div>
+                                <div class="col-2 text-right">
+                                    <b>
+                                        
+                                    </b>
+                                </div>
+                                <div class="col-10 tahun">
+                                    <strong>
+                                        Alterra Academmy
+                                    </strong>
+                                </div>
+                                <div class="col-2 text-right">
+                                    <b>
+                                        
+                                    </b>
+                                </div>
+                                <div class="col-10 tahun">
+                                    <span>
+                                        Fullstack Dev Student
+                                    </span>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-6 mb-5">
+                    <div class="row">
+                        <div class="col-12">
+                            <h4 class="title-team mt-4 mb-4">
+                                Experience
+                            </h4>
+                        </div>
+                        <div class="col-12 edu-list">
+                            <div class="row mb-3">
+                                <div class="col-2 text-right">
+                                    <b>
+                                        •
+                                    </b>
+                                </div>
+                                <div class="col-10 tahun">
+                                    <img src="images/calendar.png" class="img-calendar">
+                                    <span>
+                                        2015 - 2016
+                                    </span>
+                                </div>
+                                <div class="col-2 text-right">
+                                    <b>
+                                        
+                                    </b>
+                                </div>
+                                <div class="col-10 tahun">
+                                    <strong>
+                                        Bukalapak
+                                    </strong>
+                                </div>
+                                <div class="col-2 text-right">
+                                    <b>
+                                        
+                                    </b>
+                                </div>
+                                <div class="col-10 tahun">
+                                    <span>
+                                        Backend Engineer
+                                    </span>
+                                </div>
+                            </div>
+                            <div class="row mb-3">
+                                <div class="col-2 text-right">
+                                    <b>
+                                        •
+                                    </b>
+                                </div>
+                                <div class="col-10 tahun">
+                                    <img src="images/calendar.png" class="img-calendar">
+                                    <span>
+                                        2016 - 2018
+                                    </span>
+                                </div>
+                                <div class="col-2 text-right">
+                                    <b>
+                                        
+                                    </b>
+                                </div>
+                                <div class="col-10 tahun">
+                                    <strong>
+                                        Google
+                                    </strong>
+                                </div>
+                                <div class="col-2 text-right">
+                                    <b>
+                                        
+                                    </b>
+                                </div>
+                                <div class="col-10 tahun">
+                                    <span>
+                                        Backend Developer
+                                    </span>
+                                </div>
+                            </div>                                                     
+                            <div class="row mb-3">
+                                <div class="col-2 text-right">
+                                    <b>
+                                        •
+                                    </b>
+                                </div>
+                                <div class="col-10 tahun">
+                                    <img src="images/calendar.png" class="img-calendar">
+                                    <span>
+                                        2019 - Now
+                                    </span>
+                                </div>
+                                <div class="col-2 text-right">
+                                    <b>
+                                        
+                                    </b>
+                                </div>
+                                <div class="col-10 tahun">
+                                    <strong>
+                                        Another Dream
+                                    </strong>
+                                </div>
+                                <div class="col-2 text-right">
+                                    <b>
+                                        
+                                    </b>
+                                </div>
+                                <div class="col-10 tahun">
+                                    <span>
+                                        Fullstack Developer
+                                    </span>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <hr class="space">
+            <div class="row">
+                <div class="col-12 team-job-title">
+                    <strong>
+                        Front End Developer
+                    </strong>
+                </div>
+                <div class="col-12">
+                    <div class="row d-flex align-items-center mb-5">
+                        <div class="col-lg-5 col-md-5 col-sm-12 col-xs-12 box-profil">
+                            <div class="box-img-team d-flex justify-content-center">
+                                <div class="col-9 p-0 parent-prof">
+                                    <img class="img-team-prof" src="images/shutterstock_796346011@2x.png">
+                                    <div class="off-border">
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-lg-7 col-md-7 col-sm-12 col-xs-12">
+                            <div class="row">
+                                <div class="col-4 p-bio">
+                                    First Name
+                                </div>
+                                <div class="col-1 p-0 p-bio">
+                                    :
+                                </div>
+                                <div class="col-7 pl-0 p-bio">
+                                    Aisyah
+                                </div>
+                            </div>
+                            <div class="row">
+                                <div class="col-4 p-bio">
+                                    Last Name
+                                </div>
+                                <div class="col-1 p-0 p-bio">
+                                    :
+                                </div>
+                                <div class="col-7 pl-0 p-bio">
+                                    Putri
+                                </div>
+                            </div>
+                            <div class="row">
+                                <div class="col-4 p-bio">
+                                    Birthdate
+                                </div>
+                                <div class="col-1 p-0 p-bio">
+                                    :
+                                </div>
+                                <div class="col-7 pl-0 p-bio">
+                                    28 Juni 1997
+                                </div>
+                            </div>
+                            <div class="row">
+                                <div class="col-4 p-bio">
+                                    Nationality
+                                </div>
+                                <div class="col-1 p-0 p-bio">
+                                    :
+                                </div>
+                                <div class="col-7 pl-0 p-bio">
+                                    Indonesia
+                                </div>
+                            </div>
+                            <div class="row">
+                                <div class="col-4 p-bio">
+                                    Address
+                                </div>
+                                <div class="col-1 p-0 p-bio">
+                                    :
+                                </div>
+                                <div class="col-7 pl-0 p-bio">
+                                    Kota Depok, Jawa Barat
+                                </div>
+                            </div>
+                            <div class="row">
+                                <div class="col-4 p-bio">
+                                    Email
+                                </div>
+                                <div class="col-1 p-0 p-bio">
+                                    :
+                                </div>
+                                <div class="col-7 pl-0 p-bio">
+                                    aisyah@alterra.id
+                                </div>
+                            </div>
+                            <div class="row">
+                                <div class="col-4 p-bio">
+                                    Phone
+                                </div>
+                                <div class="col-1 p-0 p-bio">
+                                    :
+                                </div>
+                                <div class="col-7 pl-0 p-bio">
+                                    0812 8987 9972
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-6 mb-5">
+                    <div class="row">
+                        <div class="col-12">
+                            <h4 class="title-team mt-4 mb-4">
+                                Education
+                            </h4>
+                        </div>
+                        <div class="col-12 edu-list">
+                            <div class="row mb-3">
+                                <div class="col-2 text-right">
+                                    <b>
+                                        •
+                                    </b>
+                                </div>
+                                <div class="col-10 tahun">
+                                    <img src="images/calendar.png" class="img-calendar">
+                                    <span>
+                                        2012 - 2015
+                                    </span>
+                                </div>
+                                <div class="col-2 text-right">
+                                    <b>
+                                        
+                                    </b>
+                                </div>
+                                <div class="col-10 tahun">
+                                    <strong>
+                                        SMAN 04 Depok
+                                    </strong>
+                                </div>
+                                <div class="col-2 text-right">
+                                    <b>
+                                        
+                                    </b>
+                                </div>
+                                <div class="col-10 tahun">
+                                    <span>
+                                        Ilmu Pengetahuan Alam
+                                    </span>
+                                </div>
+                            </div>
+                            <div class="row mb-3">
+                                <div class="col-2 text-right">
+                                    <b>
+                                        •
+                                    </b>
+                                </div>
+                                <div class="col-10 tahun">
+                                    <img src="images/calendar.png" class="img-calendar">
+                                    <span>
+                                        2015 - 2019
+                                    </span>
+                                </div>
+                                <div class="col-2 text-right">
+                                    <b>
+                                        
+                                    </b>
+                                </div>
+                                <div class="col-10 tahun">
+                                    <strong>
+                                        Universitas Indonesia
+                                    </strong>
+                                </div>
+                                <div class="col-2 text-right">
+                                    <b>
+                                        
+                                    </b>
+                                </div>
+                                <div class="col-10 tahun">
+                                    <span>
+                                        Bachelor Degree
+                                    </span>
+                                </div>
+                            </div>                                                     
+                            <div class="row mb-3">
+                                <div class="col-2 text-right">
+                                    <b>
+                                        •
+                                    </b>
+                                </div>
+                                <div class="col-10 tahun">
+                                    <img src="images/calendar.png" class="img-calendar">
+                                    <span>
+                                        2020 - Now
+                                    </span>
+                                </div>
+                                <div class="col-2 text-right">
+                                    <b>
+                                        
+                                    </b>
+                                </div>
+                                <div class="col-10 tahun">
+                                    <strong>
+                                        Alterra Academmy
+                                    </strong>
+                                </div>
+                                <div class="col-2 text-right">
+                                    <b>
+                                        
+                                    </b>
+                                </div>
+                                <div class="col-10 tahun">
+                                    <span>
+                                        Fullstack Dev Student
+                                    </span>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-6 mb-5">
+                    <div class="row">
+                        <div class="col-12">
+                            <h4 class="title-team mt-4 mb-4">
+                                Experience
+                            </h4>
+                        </div>
+                        <div class="col-12 edu-list">
+                            <div class="row mb-3">
+                                <div class="col-2 text-right">
+                                    <b>
+                                        •
+                                    </b>
+                                </div>
+                                <div class="col-10 tahun">
+                                    <img src="images/calendar.png" class="img-calendar">
+                                    <span>
+                                        2016 - 2017
+                                    </span>
+                                </div>
+                                <div class="col-2 text-right">
+                                    <b>
+                                        
+                                    </b>
+                                </div>
+                                <div class="col-10 tahun">
+                                    <strong>
+                                        Tokopedia
+                                    </strong>
+                                </div>
+                                <div class="col-2 text-right">
+                                    <b>
+                                        
+                                    </b>
+                                </div>
+                                <div class="col-10 tahun">
+                                    <span>
+                                        UI Designer
+                                    </span>
+                                </div>
+                            </div>
+                            <div class="row mb-3">
+                                <div class="col-2 text-right">
+                                    <b>
+                                        •
+                                    </b>
+                                </div>
+                                <div class="col-10 tahun">
+                                    <img src="images/calendar.png" class="img-calendar">
+                                    <span>
+                                        2017 - 2019
+                                    </span>
+                                </div>
+                                <div class="col-2 text-right">
+                                    <b>
+                                        
+                                    </b>
+                                </div>
+                                <div class="col-10 tahun">
+                                    <strong>
+                                        Amazon
+                                    </strong>
+                                </div>
+                                <div class="col-2 text-right">
+                                    <b>
+                                        
+                                    </b>
+                                </div>
+                                <div class="col-10 tahun">
+                                    <span>
+                                        Frontend Developer
+                                    </span>
+                                </div>
+                            </div>                                                     
+                            <div class="row mb-3">
+                                <div class="col-2 text-right">
+                                    <b>
+                                        •
+                                    </b>
+                                </div>
+                                <div class="col-10 tahun">
+                                    <img src="images/calendar.png" class="img-calendar">
+                                    <span>
+                                        2020 - Now
+                                    </span>
+                                </div>
+                                <div class="col-2 text-right">
+                                    <b>
+                                        
+                                    </b>
+                                </div>
+                                <div class="col-10 tahun">
+                                    <strong>
+                                        Another Dream
+                                    </strong>
+                                </div>
+                                <div class="col-2 text-right">
+                                    <b>
+                                        
+                                    </b>
+                                </div>
+                                <div class="col-10 tahun">
+                                    <span>
+                                        Fullstack Developer
+                                    </span>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <footer class="mt-5">
+        <div class="container">
+            <div class="row d-flex justify-content-between align-items-center">
+                <!-- <div class="col-lg-4 col-md-4 col-sm-4 col-xs-4 alta-logo"> -->
+                <div class="col-4 alta-logo">
+
+                    <a href="{% url 'index'%}"><img src="images/logo-ALTA-v2@2x.png" alt="" class="footer-logo"></a>
+                </div>
+                <!-- <div class="col-lg-4 col-md-4 col-sm-4 col-xs-6 alta-sosmed"> -->
+                <div class="col-4 alta-sosmed">
+                    <div class="row d-flex justify-content-center">
+                        <div class="col-12 sosmed-title">
+                            Social Media :
+                        </div>
+                        <div class="col-lg-12 p-0 col-sm col-sm-6">
+                            <a href="https://www.facebook.com/"><img src="images/ic_fb.png" alt=""></a>
+                            <a href="https://www.instagram.com/"><img src="img/ic_ig.png" alt=""></a>
+                            <a href="https://www.twitter.com/"><img src="img/ic_twitter.png" alt=""></a>
+                            <a href="https://www.linkedin.com/"><img src="img/ic_linkedin.png" alt=""></a>
+                        </div>
+                    </div>
+                </div>
+                <!-- <div class="col-lg-4 col-md-4 col-sm-4 col-xs-12 alta-copyright"> -->
+                <div class="col-4 alta-copyright">
+                        Copyright © 2019 Alterra
+                        <!-- 2019 Alterra -->
+                </div>
+            </div>
+        </div>
+    </footer>
+</body>
+</html>

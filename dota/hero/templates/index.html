@@ -1,0 +1,344 @@
+<!DOCTYPE html>
+<html lang="en">
+    {%load static%}
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
+    <link rel="stylesheet" href="{% static 'css/style.css'%}">
+    <title>Alterra Academy | Home</title>
+</head>
+<body>
+    <header class="bg-white">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-6 col-md-4 col-sm-12 col-xs-12 menu_mobile">
+                    <a href="{% url 'index'%}">
+                        <img id="logo" src="{%static 'images/logo-ALTA@2x.png'%}" width="200px" />
+                    </a>
+                </div>
+                <div class="col-lg-6 col-md-8 col-sm-12 col-xs-12 d-flex align-items-center">
+                    <nav>
+                        <ul class="mb-0">
+                            <a href="{% url 'index'%}" class="active">
+                                <li>
+                                    Home
+                                </li>
+                            </a>
+                            <a href="{% url 'index'%}">
+                                <li>
+                                    About
+                                </li>
+                            </a>
+                            <a href="{% url 'about'%}">
+                                <li>
+                                    Team
+                                </li>
+                            </a>                        
+                            <a href="{% url 'blog'%}">
+                                <li>
+                                    Blog
+                                </li>
+                            </a>
+                            <a href="{% url 'contact'%}">
+                                <div class="contact">
+                                    Contact
+                                </div>
+                            </a>
+                        </ul>
+                    </nav>
+                </div>
+
+            </div>
+        </div>
+    </header>
+    <section class="bg-cblue home-section">
+        <div class="container d-flex">
+            <div class="row d-flex align-items-center justify-content-center">
+                <div class="col-lg-5 col-sm-12 col-xs-12 d-flex justify-content-center banner-pict">
+                    <img src="{%static 'images/Group 16136@2x@2x.png'%}" alt="" class="img-section">
+                </div>
+                <div class="col-lg-6 px-2">
+                    <div class="c-middle">
+                        <h3 class="c-h3">
+                            HI THERE !
+                        </h3>
+                        <h1 class="c-h1">
+                            <b>                            
+                                We are an <span class="c-orange c-h1-orange">Alterra Academy</span>
+                            </b>
+                        </h1>
+                        <strong class="">
+                            <p>Alterra Academy Full-stack Program is Coding Bootcamp which transform you being professional Software Engineer within 3 months.</p>
+                        </strong>
+                        <a href="" class="text-fsection">
+                            <div class="btn-about-team mt-2">
+                                <b> More About Team</b>
+                            </div>
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section>
+        <div class="bottom-banner d-flex justify-content-center">
+            <div class="col-lg-10 col-md-12 col-sm-12 col-xs-12">
+                <div class="row">
+                    <div class="col-4">
+                        <div class="row d-flex align-items-center justify-content-center">
+                            <div class="col-lg-4 col-md-4 col-sm-4 col-xs-4 d-flex justify-content-end">
+                                <div class="round-div">
+                                    <img src="{%static 'images/reward.png'%}" alt="">
+                                </div>
+                            </div>
+                            <div class="col-lg-4 col-md-5 col-sm-8 col-xs-4 p-0 text-left desc-banner">
+                                <strong>
+                                    4 Years jobs
+                                </strong><br>
+                                <small>
+                                    Experience
+                                </small>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-4">
+                        <div class="row d-flex align-items-center justify-content-center border-div-mid">
+                            <div class="col-lg-4 col-md-4 col-sm-4 col-xs-4 d-flex justify-content-end">
+                                <div class="round-div">
+                                    <img src="{% static 'images/project.png'%}" alt="">
+                                </div>
+                            </div>
+                            <div class="col-lg-5 col-md-5 col-sm-8 col-xs-5 p-0 text-left desc-banner">
+                                <strong>
+                                    +500 Projects
+                                </strong><br>
+                                <small>
+                                    Completed
+                                </small>
+                            </div>
+                        </div>                    
+                    </div>
+                    <div class="col-4">
+                        <div class="row d-flex align-items-center justify-content-center">
+                            <div class="col-lg-4 col-md-4 col-sm-4 col-xs-4 d-flex justify-content-end">
+                                <div class="round-div">
+                                    <img src="{%static 'images/support.png'%}" alt="">
+                                    
+                                </div>
+                            </div>
+                            <div class="col-lg-4 col-md-4 col-sm-8 col-xs-4 p-0 text-left desc-banner">
+                                <strong>
+                                    Support
+                                </strong><br>
+                                <small>
+                                    Online 24/7
+                                </small>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section class="header_section m-5">
+        <div class="col-12 text-center">
+            <h1 id="about-home" class="head-section">About</h1>
+        </div>
+    </section>
+    <section class="about-body">
+        <div class="container">
+            <div class="row">
+                <div class="col-12 py-4 my-5 text-center text-white about-box">
+                    <h1 class="py-3 my-5 about-box-title">
+                        Alterra is For Everyone
+                    </h1>
+                    <p class="my-3 about-box-desc">
+                        As a brandnew Catalyst, we are aiming to become one of the best tech companies in Indonesia. Joining the tech industry in Indonesia since 2015 under the name of Sepulsa, we have evolved as a B2B tech company in 4 years providing various services such as Bill Payment Aggregator, Distribution Network, Promotion Platform, and Tech Academy.
+                    </p>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section class="header_section m-5">
+        <div class="col-12 text-center">
+            <h1 class="head-section">Meet Our Team</h1>
+            <b>Our Team Consists Only of the Best Talents</b>
+        </div>
+    </section>
+    <section class="meet_team mb-5">
+        <div class="container">
+            <div class="row d-flex justify-content-between">
+                <div class="col-lg-3 col-md-4 team-profil">
+                    <div class="col-12 p-0 team-prof mb-5">
+                        <img src="{% static 'images/shutterstock_796346011@2x.png'%}" alt="" class="team_img">
+                        <div class="off-border">
+                        </div>
+                    </div>
+                    <div class="col-12 mt-4 text-center">
+                        <div class="decs">
+                            <h3 class="team_name">
+                                Muh Sholeh
+                            </h3>
+                            <h5 class="team_job">
+                                Back-End Developer
+                            </h5>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-3 col-md-4 team-profil">
+                    <div class="col-12 p-0 team-prof mb-5">
+                        <img src="{%static 'images/shutterstock_796346011@2x.png'%}" alt="" class="team_img">
+                        <div class="off-border">
+                        </div>
+                    </div>
+                    <div class="col-12 mt-4 text-center">
+                        <div class="decs">
+                            <h3 class="team_name">
+                                Aisyah Putri
+                            </h3>
+                            <h5 class="team_job">
+                                Front-End Developer
+                            </h5>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-3 col-md-4 team-profil">
+                    <div class="col-12 p-0 team-prof mb-5">
+                        <img src="{%static 'images/shutterstock_796346011@2x.png'%}" alt="" class="team_img">
+                        <div class="off-border">
+                        </div>
+                    </div>
+                    <div class="col-12 mt-4 text-center">
+                        <div class="decs">
+                            <h3 class="team_name">
+                                Sholeh Aisyah
+                            </h3>
+                            <h5 class="team_job">
+                                UI/UX Designer
+                            </h5>
+                        </div>
+                    </div>
+                </div>       
+            </div>
+            <div class="col-12 text-right mt-2 check">
+                <a href="{% url 'index'%}"><strong class="c-blue next_team">Check now <h4>&#8594;</h4></strong></a>
+                <!-- <img src="img/arrow-navy@2x.png" alt=""> -->
+            </div>
+        </div>
+    </section>
+    <section class="header_section m-5">
+        <div class="col-12 text-center">
+            <h1 class="head-section">Latest Blogs</h1>
+        </div>
+    </section>
+    <section class="last-blog">
+        <div class="container">
+            <div class="row d-flex justify-content-center">
+                <div class="col-lg-4 col-md-6 article-box mb-5">
+                    <img src="{% static 'images/img_article.jpg'%}" alt="" class="article-img mb-5">
+                    <h3 class="title-last-article mb-3">
+                        CREATE A WORDPRESS THEME FROM SCRATCH
+                    </h3>
+                    <div class="info-blog mb-2 d-flex justify-content-between">
+                        <small>
+                            larry stark
+                        </small>
+                        <small>
+                            7 Januari 2020
+                        </small>
+                    </div>
+                    <p>
+                        Quick six blind smart out burst. Perfectly on furniture dejection determine my depending an to. Add short water court fat…
+                    </p>
+                    <a href="">
+                        <div class="d-flex justify-content-end">
+                            <div class="read-more">
+                                Read More
+                            </div>
+                        </div>
+                    </a>
+                </div>
+                <div class="col-lg-4 col-md-6 article-box mb-5">
+                    <img src="{% static 'images/img_article.jpg'%}" alt="" class="article-img mb-5">
+                    <h3 class="title-last-article mb-3">
+                        CREATE A WORDPRESS THEME FROM SCRATCH
+                    </h3>
+                    <div class="info-blog mb-2 d-flex justify-content-between">
+                        <small>
+                            larry stark
+                        </small>
+                        <small>
+                            7 Januari 2020
+                        </small>
+                    </div>
+                    <p>
+                        Quick six blind smart out burst. Perfectly on furniture dejection determine my depending an to. Add short water court fat…
+                    </p>
+                    <a href="">
+                        <div class="d-flex justify-content-end">
+                            <div class="read-more">
+                                Read More
+                            </div>
+                        </div>
+                    </a>
+                </div>
+                <div class="col-lg-4 col-md-6 article-box mb-5">
+                    <img src="{% static 'images/img_article.jpg'%}" alt="" class="article-img mb-5">
+                    <h3 class="title-last-article mb-3">
+                        CREATE A WORDPRESS THEME FROM SCRATCH
+                    </h3>
+                    <div class="info-blog mb-2 d-flex justify-content-between">
+                        <small class="b-left">
+                            larry stark
+                        </small>
+                        <small class="b-right">
+                            7 Januari 2020
+                        </small>
+                    </div>
+                    <p>
+                        Quick six blind smart out burst. Perfectly on furniture dejection determine my depending an to. Add short water court fat…
+                    </p>
+                    <a href="">
+                        <div class="d-flex justify-content-end">
+                            <div class="read-more">
+                                Read More
+                            </div>
+                        </div>
+                    </a>
+                </div>
+            </div>
+        </div>
+    </section>
+    <footer>
+        <div class="container">
+            <div class="row d-flex justify-content-between align-items-center">
+                <!-- <div class="col-lg-4 col-md-4 col-sm-4 col-xs-4 alta-logo"> -->
+                <div class="col-4 alta-logo">
+
+                    <a href="{%url 'index'%}"><img src="{% static 'images/logo-ALTA-v2@2x.png'%}" alt="" class="footer-logo"></a>
+                </div>
+                <!-- <div class="col-lg-4 col-md-4 col-sm-4 col-xs-6 alta-sosmed"> -->
+                <div class="col-4 alta-sosmed">
+                    <div class="row d-flex justify-content-center">
+                        <div class="col-12 sosmed-title">
+                            Social Media :
+                        </div>
+                        <div class="col-lg-12 p-0 col-sm col-sm-6">
+                            <a href="https://www.facebook.com/"><img src="{% static 'images/ic_fb.png'%}" alt=""></a>
+                            <a href="https://www.instagram.com/"><img src="{% static 'images/ic_ig.png' %}" alt=""></a>
+                            <a href="https://www.twitter.com/"><img src="{% static 'images/ic_twitter.png'%}" alt=""></a>
+                            <a href="https://www.linkedin.com/"><img src="{% static 'img/ic_linkedin.png'%}" alt=""></a>
+                        </div>
+                    </div>
+                </div>
+                <!-- <div class="col-lg-4 col-md-4 col-sm-4 col-xs-12 alta-copyright"> -->
+                <div class="col-4 alta-copyright">
+                        Copyright © 2019 Alterra
+                        <!-- 2019 Alterra -->
+                </div>
+            </div>
+        </div>
+    </footer>
+</body>
+</html>

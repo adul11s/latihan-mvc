@@ -1,0 +1,154 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    {%load static%}
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
+    <link rel="stylesheet" href="{% static 'css/style.css' %}">
+    <title>Alterra Academy | Contact</title>
+</head>
+<body>
+    <header class="bg-white">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-6 col-md-4 col-sm-12 col-xs-12 menu_mobile">
+                    <a href="{% url 'index'%}">
+                        <img id="logo" src="{% static 'images/logo-ALTA@2x.png'%}" width="200px" />
+                    </a>
+                </div>
+                <div class="col-lg-6 col-md-8 col-sm-12 col-xs-12 d-flex align-items-center">
+                    <nav>
+                        <ul class="mb-0">
+                            <a href="{% url 'index'%}">
+                                <li>
+                                    Home
+                                </li>
+                            </a>
+                            <a href="{% url 'index'%}">
+                                <li>
+                                    About
+                                </li>
+                            </a>
+                            <a href="{%url 'about'%}">
+                                <li>
+                                    Team
+                                </li>
+                            </a>                        
+                            <a href="{% url 'blog'%}" class="active">
+                                <li>
+                                    Blog
+                                </li>
+                            </a>
+                            <a href="{% url 'contact'%}">
+                                <div class="contact active">
+                                    Contact
+                                </div>
+                            </a>
+                        </ul>
+                    </nav>
+                </div>
+
+            </div>
+        </div>
+    </header>
+    <section class="first-section">
+        <div class="container">
+            <div class="col-12 text-center">
+                <h1 class="head-section mb-4">Get In Touch</h1>
+            </div>
+        </div>
+    </section>
+    <!-- <section class="header_section m-5">
+    </section> -->
+
+    <section class="contact-body mb-5">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-4 col-md-4 col-sm-12 col-xs-12 contact-info-box p-0">
+                    <div class="col-12">
+                    <p class="contact-info">Phone</p>
+                    <p class="contact-info pl-3"><img class="img-contact mr-2" src="{% static 'images/phone.png'%}"/> +62 21 909 7890</p>
+                    <p class="contact-info">Email</p>
+                    <p class="contact-info pl-3"><img class="img-contact mr-2" src="{% static 'images/envelope.png'%}"/>info@alterra.id</p>
+                    <p class="contact-info">Website</p>
+                    <p class="contact-info pl-3"><img class="img-contact mr-2" src="{% static 'images/browser.png'%}"/>https://www.alterra.id/</p>
+                    <p class="contact-info">Social Profiles</p>
+                    <p class="contact-info pl-3">
+                        <a href="https://facebook.com/"><img class="img-soc-ctc mr-2" src="{% static 'images/facebook.png'%}"/></a>
+                        <a href="https://www.twitter.com/"><img class="img-soc-ctc mr-2" src="{% static 'images/twitter.png'%}"></a>
+                        <a href="https://www.instagram.com/"><img class="img-soc-ctc mr-2" src="{%static 'images/instagram.png'%}"></a>
+                        <a href="https://www.linkedin.com/"><img class="img-soc-ctc mr-2" src="{%static 'images/linkedin.png'%}"></a>
+                    </p>
+                    </div>
+                </div>
+
+                <div class="col-lg-8 col-md-8 col-sm-12 col-xs-12">
+                    <div class="row">
+                        <div class="col-1 gak-guna"></div>
+                        <div class="col-11">
+                            <p class=p-contact>If you have any suggestion, project or even you want to say, Hello.. Please fill out the form below and I will reply you shortly.</p>
+                            <br>
+                            <form>
+                                <div class="form-group">
+                                  <label for="form-input">Full Name</label>
+                                  <input type="text" class="form-control" id="form-input" placeholder="Your Name">
+                                </div>
+                                <div class="form-group">
+                                  <label for="form-input">Email Address</label>
+                                  <input type="text" class="form-control" id="form-input" placeholder="Your Email">
+                                </div>
+                                <div class="form-group">
+                                    <label for="form-input">Phone Number</label>
+                                    <input type="text" class="form-control" id="form-input" placeholder="Your Phone Number" required="required">
+                                </div>
+                                <div class="form-group">
+                                    <label for="form-input">Message</label>
+                                    <textarea name="" class="form-control" id="" cols="30" rows="5" placeholder="Your Message ..."></textarea>
+                                    <!-- <input type="text" class="form-control-message" id="form-input" placeholder="Your Message ..." required="required"> -->
+                                </div>
+                                <div class="form-group-btn">
+                                    <a href="">
+                                        <div class="btn-form-group">
+                                            <b> Send Message</b>
+                                        </div>
+                                </div>
+                            </form>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <footer>
+        <div class="container">
+            <div class="row d-flex justify-content-between align-items-center">
+                <!-- <div class="col-lg-4 col-md-4 col-sm-4 col-xs-4 alta-logo"> -->
+                <div class="col-4 alta-logo">
+
+                    <a href="{%url 'index'%}"><img src="{% static 'images/logo-ALTA-v2@2x.png'%}" alt="" class="footer-logo"></a>
+                </div>
+                <!-- <div class="col-lg-4 col-md-4 col-sm-4 col-xs-6 alta-sosmed"> -->
+                <div class="col-4 alta-sosmed">
+                    <div class="row d-flex justify-content-center">
+                        <div class="col-12 sosmed-title">
+                            Social Media :
+                        </div>
+                        <div class="col-lg-12 p-0 col-sm col-sm-6">
+                            <a href="https://www.facebook.com/"><img src="{% static 'images/ic_fb.png'%}" alt=""></a>
+                            <a href="https://www.instagram.com/"><img src="{% static 'images/ic_ig.png'%}" alt=""></a>
+                            <a href="https://www.twitter.com/"><img src="{% static 'images/ic_twitter.png'%}" alt=""></a>
+                            <a href="https://www.linkedin.com/"><img src="{% static 'images/ic_linkedin.png'%}" alt=""></a>
+                        </div>
+                    </div>
+                </div>
+                <!-- <div class="col-lg-4 col-md-4 col-sm-4 col-xs-12 alta-copyright"> -->
+                <div class="col-4 alta-copyright">
+                        Copyright © 2019 Alterra
+                        <!-- 2019 Alterra -->
+                </div>
+            </div>
+        </div>
+    </footer>
+</body>
+</html>
